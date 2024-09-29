@@ -1,0 +1,34 @@
+HTML
+
+File Extension .html
+
+Paragraph 
+p
+
+
+6 Headings
+
+h1
+h2
+h3
+h4
+h5
+h6
+
+sub sup i b
+
+Self Closing Tags
+
+Semantic Markups
+
+strong
+em
+q
+blockqoutes
+address
+cite
+dfn
+
+ins del 
+
+Lists
