@@ -1,0 +1,11 @@
+1) Add Top Navbar in your portfolio site, Moving between different pages , 
+like home to about, about to home , home to contact us, contact us to home
+
+2) Add your image in your portfolio, prferred to add introductory video also
+
+3) In the Experience Page, Add one table of Experiences 
+having columns , SR#, Company Name, Joining Date, status 
+
+Above Experiences can be dummy also 
+
+4) Convert your whole code into , better code by using div and section

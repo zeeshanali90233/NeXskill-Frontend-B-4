@@ -1,0 +1,34 @@
+	ankle tags
+		-> a tag
+		-> External Source Divertion
+		-> Intra Website Page Transitions
+	
+	File Paths
+		-> Forward and backward Paths
+
+	Images
+		-> Through Path
+		-> Through External Source
+		-> width , height properties
+		-> alt text
+    Videos
+		-> Through Path
+		-> Through External Source
+		-> width , height properties
+		-> alt text
+    Audio
+		-> Through Path
+		-> Through External Source
+		-> alt text
+    
+    Tables
+        -> thead 
+        -> tbody 
+                -> th 
+                -> td
+        -> tfoot
+
+
+	Figure & Captions
+
+    div & sections 
