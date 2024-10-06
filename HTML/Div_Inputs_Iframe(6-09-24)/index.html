@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+
+    <form>
+      <label for="userName">Name*</label>
+
+      <input
+        type="text"
+        placeholder="Enter your name"
+        class="username"
+        name="userName"
+        minlength="3"
+        maxlength="50"
+        required
+      />
+
+      <label for="password">Password*</label>
+      <input
+        type="password"
+        placeholder="Enter your password"
+        class="password"
+        name="password"
+        minlength="3"
+        required
+      />
+
+      <label for="age">Age*</label>
+      <input
+        type="number"
+        placeholder="Enter your age"
+        class="age"
+        name="age"
+        min="7"
+        max="100"
+        required
+      />
+
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="" value="male" />
+
+      <label for="female">FeMale</label>
+      <input type="radio" name="gender" id="" value="female" />
+
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter message"
+        cols="50"
+        role="10"
+      ></textarea>
+
+      <select name="education" id="" required>
+        <option value="">--Select Education--</option>
+        <option value="10">Matric</option>
+        <option value="fsc">FSC</option>
+        <option value="cambridge">O/A Levels</option>
+        <option value="university">University</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <input type="email" placeholder="email" />
+    <input type="file" />
+    <input type="datetime-local" />
+    <input type="number" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <input type="color" />
+    <input type="tel" />
+    <input type="url" />
+    <input type="week" />
+  </body>
+</html>
