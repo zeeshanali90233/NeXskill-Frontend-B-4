@@ -1,0 +1,4 @@
+- Variables
+- If Statement, Switch
+- Loops
+- Objects & Array 

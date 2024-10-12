@@ -1,0 +1,40 @@
+. Variables and Basic Arithmetic
+    1) Task: Write a JavaScript program that calculates and displays the area of different shapes based on user input.
+        Prompt the user to enter the shape type (circle, rectangle, or triangle).
+        If the user selects circle, ask for the radius and calculate the area using the formula πr².
+        If the user selects rectangle, ask for the length and width, then calculate the area.
+        If the user selects triangle, ask for the base and height, then calculate the area using the formula (base * height) / 2.
+        Hint: Use const for constant values like π = 3.14159 and let or var for variables. Use prompt to take input from the user.
+
+    2. If Statement & Switch: Grading System
+     Task: Write a JavaScript program that takes a student's score as input and outputs their grade.
+        If the score is 90 or above, assign the grade "A".
+        If the score is between 80 and 89, assign the grade "B".
+        If the score is between 70 and 79, assign the grade "C".
+        If the score is between 60 and 69, assign the grade "D".
+        If the score is below 60, assign the grade "F".
+        Use a switch statement to display personalized messages for each grade, e.g., "Great job for an A!"
+        Hint: Use if-else statements to assign the grade and switch to display the message.
+
+    3. Loops: Sum of Multiples
+    Task: Write a JavaScript program that calculates the sum of all multiples of 3 and 5 below 100.
+        Use a for loop to iterate from 1 to 99.
+        Check if the current number is divisible by 3 or 5 using the modulus operator (%).
+        If it is, add it to a cumulative sum.
+        At the end, print the sum.
+        Bonus: Modify the program to take a user input for the upper limit (instead of 100).
+
+    4. Objects: Library System
+        Task: Create a simple object that represents a book in a library.
+        The object should have the following properties: title, author, year, and available (true/false).
+        Create a function borrowBook that marks the book as unavailable and a function returnBook that marks it as available.
+        Print out the book's details before and after borrowing/returning it.
+        Hint: Use object methods to define borrowBook and returnBook.
+        
+    5. Arrays & Loops: Student Management
+    Task: Create an array of objects where each object represents a student.
+        Each student object should have properties: name, age, and grade.
+        Write a function getTopStudents that filters and returns the students who have a grade of 85 or higher.
+        Write a function averageGrade that calculates and returns the average grade of all students.
+        Test the functions by creating an array of 5 students with different grades and printing the top students and the average grade.
+        Hint: Use array methods like filter and reduce for filtering and calculating the average.
