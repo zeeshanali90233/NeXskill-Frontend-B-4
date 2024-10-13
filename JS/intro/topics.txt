@@ -1,3 +1,16 @@
 - Introduction
 - History
 - Starter with Console
+
+
+1) Can't start with Special Character
+2) Can't start with Number
+3) Can't have a space in between names
+4) If to join, use underscore like zeeshan_ali
+
+Naming Convention
+
+1) Camel Case ex: zeeshanAli, myAge, myBrotherAge
+2) Pascal Case  ex: ZeeshanAli, MyAge, myBrotherAge
+3) snake_case ex: zeeshan_ali , my_age, my_brother_age
+

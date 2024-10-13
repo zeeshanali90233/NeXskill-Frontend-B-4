@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Hello to JS
+    <!-- JS -->
+    <script>
+      // let , var const
+      let x = 12;
+      let y = 14;
+
+      let result = x + y;
+      console.log(result);
+      result = x * y;
+      console.log(result);
+      result = x / y;
+      console.log(result);
+      result = x - y;
+      console.log(result);
+      result = x % y;
+      console.log(result);
+      result = x ** y;
+      console.log(result);
+
+      result = 45;
+      result = 5;
+      console.log(result);
+
+      //   Conditional Statements
+
+      if (result <= 2) {
+      }
+
+      if (result > 5) {
+        console.log("I am John");
+      } else {
+        console.log("No I am Baptics");
+      }
+
+      if (result > 10) {
+        console.log("I am Zeeshan");
+      } else if (result > 5) {
+        console.log("I am Ali");
+      } else {
+        console.log("You are not zeeshan not ali");
+      }
+
+      let age = 17;
+
+      if (age >= 18) {
+        console.log("You are eligible");
+      } else {
+        console.log("You are not eligible");
+      }
+
+      let options = "A";
+      console.log(options == "A");
+      console.log(options !== "A");
+
+      let myFriendName = "Zeeshan";
+      console.log(myFriendName !== "Ali");
+      if (myFriendName !== "Ali") {
+      }
+
+      //   Undefined
+      let myName;
+      console.log(myName);
+
+      if (options == "A") {
+      } else if (options == "B") {
+      } else if (options == "C") {
+      } else if (options == "D") {
+      } else {
+        console.log("Wrong Option");
+      }
+
+      if (x > 154) {
+      } else if (y >= 78) {
+      }
+
+      options = "B";
+      switch (options) {
+        case "A":
+          console.log("A Pressed");
+          break;
+        case "B":
+          console.log("B Pressed");
+          break;
+        case "C":
+          console.log("C Pressed");
+          break;
+        default:
+          console.log("Wrong Input");
+      }
+
+      //  /Loops
+      // 1 <=4 T
+      // 2 <=4 T
+      // 3 <=4 T
+      // 4<=4 T
+      // 5 <=4 F
+
+      //   1 1<=4 T
+      //   6 6<=4 F
+
+      //   let initialValue = 1;
+      //   let finalValue = 10;
+      //   for (let i = initialValue; i <= finalValue; i++) {
+      //     console.log(i);
+      //   }
+
+      //   Dynamic
+
+      //   let initialValue = prompt("Enter Initial Value");
+      //   initialValue = Number(initialValue);
+      //   let finalValue = prompt("Enter final Value");
+      //   finalValue = Number(finalValue);
+      //   let sortingType = prompt("Enter Sorting way like asc, desc");
+
+      //   if (sortingType === "asc") {
+      //     let increment = prompt("Enter Increment Count:");
+      //     increment = Number(increment);
+
+      //     if (initialValue <= finalValue) {
+      //       for (let i = initialValue; i <= finalValue; i += increment) {
+      //         console.log(i);
+      //       }
+      //     } else {
+      //       alert("Initial Valye can't be greater than final value");
+      //     }
+      //   } else if (sortingType === "desc") {
+      //     let decrement = prompt("Enter Decrement Count:");
+      //     decrement = Number(decrement);
+
+      //     if (initialValue >= finalValue) {
+      //       for (let i = initialValue; i >= finalValue; i -= decrement) {
+      //         console.log(i);
+      //       }
+      //     } else {
+      //       alert("FInal value can;t be greater than initial value");
+      //     }
+      //   } else {
+      //     alert("Incorrect Choice");
+      //   }
+
+      let name = "Ali";
+
+      while (name == "Ali") {
+        console.log("Ali");
+        name = "Zeeshan";
+      }
+
+      let fatherAge = prompt("Enter your father age");
+      fatherAge = Number(fatherAge);
+
+      while (fatherAge <= 10) {
+        fatherAge = prompt("Enter your father age again?");
+        fatherAge = Number(fatherAge);
+      }
+
+      let userDetail = {
+        name: "Zeeshan",
+        email: "zeeshanali90233@gmail.com",
+        isMarried: false,
+        age: 22,
+      };
+      userDetail.email = "asad@gmai.com";
+      delete userDetail.email;
+      console.log(userDetail.age);
+      console.log(userDetail.email);
+    </script>
+  </body>
+</html>
