@@ -12,3 +12,7 @@
         Write a function averageGrade that calculates and returns the average grade of all students.
         Test the functions by creating an array of 5 students with different grades and printing the top students and the average grade.
         Hint: Use array methods like filter and reduce for filtering and calculating the average.
+    
+    3. Make a toggle theme site, consists of one button that can switch between dark and light theme
+
+    4. COnvert all above code in modular way, like making functions aadding comments
