@@ -1,0 +1,14 @@
+    1. Objects: Library System
+        Task: Create a simple object that represents a book in a library.
+        The object should have the following properties: title, author, year, and available (true/false).
+        Create a function borrowBook that marks the book as unavailable and a function returnBook that marks it as available.
+        Print out the book's details before and after borrowing/returning it.
+        Hint: Use object methods to define borrowBook and returnBook.
+        
+    2. Arrays & Loops: Student Management
+    Task: Create an array of objects where each object represents a student.
+        Each student object should have properties: name, age, and grade.
+        Write a function getTopStudents that filters and returns the students who have a grade of 85 or higher.
+        Write a function averageGrade that calculates and returns the average grade of all students.
+        Test the functions by creating an array of 5 students with different grades and printing the top students and the average grade.
+        Hint: Use array methods like filter and reduce for filtering and calculating the average.
