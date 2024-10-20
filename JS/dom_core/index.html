@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dark {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="main_container">
+    <form onsubmit="saveForm(); return false;" class="userForm">
+      <div>
+        <label for="userName">Name*</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          name="userName"
+          class="userNameInput"
+        />
+      </div>
+      <div>
+        <label for="email">Email*</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          name="email"
+          class="emailInput"
+        />
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div
+      style="width: 200px; height: 50px; background-color: green"
+      class="restrictedBox"
+    >
+      Don't Hover Me
+    </div>
+
+    <button
+      style="
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: red;
+      "
+      class="themeBtn"
+    >
+      Theme
+    </button>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
