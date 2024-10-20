@@ -1,4 +1,7 @@
-- Arrays & Multi Dimensional
-- Arrays functions
-- functions
-- Dom
+- DOM 
+- Event Listeners
+- Input Value get using DOM
+- Toggle Theme, using State Persistance 
+- Local Storage
+- Promises
+- Promise Then, Catch, Finally

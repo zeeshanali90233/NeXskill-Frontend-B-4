@@ -1,0 +1,43 @@
+
+
+1. DOM Manipulation (Without Creating Elements):
+    Task: Create a page with a static list of tasks and allow the user to highlight a task when clicked.
+    Details:
+    Predefine a few list items (<li>) inside an unordered list (<ul>).
+    When a user clicks on a task, its background color should change to indicate it has been selected.
+    Key Concepts: DOM selection, manipulating styles using classList, getElementById(), and querySelectorAll().
+
+2. Event Listeners:
+    Task: Create a basic toggle button to hide and show a paragraph.
+    Details:
+    Add a static paragraph of text and a button labeled "Toggle Text".
+    When the button is clicked, the paragraph should either hide or show, depending on its current state.
+    Key Concepts: addEventListener(), DOM element visibility using style.display or classList.toggle().
+
+3. Input Value and DOM Interaction (Without Editing Values Inside a Div):
+    Task: Create a form that updates input fields to display a user's entered data.
+    Details:
+    Create a form with "Name" and "Email" fields and a "Submit" button.
+    When submitted, display the entered name and email inside two pre-existing static <span> elements, placed next to corresponding labels.
+    Prevent form submission from refreshing the page.
+    Key Concepts: input.value, event.preventDefault(), targeting specific DOM elements using getElementById().
+
+4. Toggle Theme with State Persistence (Local Storage):
+    Task: Create a toggle button to switch between dark and light themes, with state persistence.
+    Details:
+    Predefine two themes: dark and light. Change the body’s background color and text color accordingly.
+    When a user toggles the button, the current theme should be saved in localStorage and restored when the page reloads.
+    Key Concepts: DOM style manipulation, event handling, localStorage for theme persistence.
+
+5. Promises and Error Handling with then, catch, finally:
+    Task: Simulate an API call to fetch a status message using Promises and display it in an alert.
+    Details:
+    Create a button labeled "Check Status".
+    When the button is clicked, simulate a Promise that resolves after 3 seconds with a status message like "Success" or rejects with an error.
+    Use then to show the success message in an alert(), catch to show an error message in an alert(), and finally to display "Operation completed" after the Promise is done.
+    Key Concepts: Promises, then, catch, finally, alert() for output.
+
+    These assignments avoid creating elements dynamically or modifying content inside a <div>, while still covering important concepts related to the DOM, event handling, local storage, and Promises.
+    use SetTimeout here docs link: https://www.w3schools.com/jsref/met_win_settimeout.asp
+
+6. In your portfolio task , add toggle theme functionality
