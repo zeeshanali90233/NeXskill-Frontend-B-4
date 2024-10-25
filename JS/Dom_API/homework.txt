@@ -1,2 +1,0 @@
-- Creating Element Using DOM
-- Editing Value inside Div
