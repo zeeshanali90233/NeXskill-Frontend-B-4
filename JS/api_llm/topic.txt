@@ -1,0 +1,14 @@
+- API 
+- API Methods
+- API Use Cases 
+- TEST - API's
+- GEMINI - API
+- GEMINI API KEY = AIzaSyCd6-dKitqZULcCsGD8rrUB25qvrySrPmk
+
+
+Test API's
+
+Get Instagram Posts: https://p2pclouds.up.railway.app/v1/learn/get_instagram_posts
+Post: Tweet Save: https://p2pclouds.up.railway.app/v1/learn/tweet/save    { tweetImage, tweetDescription }
+Delete Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/delete  tweetId
+Update Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/update  { tweetId, tweetImage, tweetDescription }
