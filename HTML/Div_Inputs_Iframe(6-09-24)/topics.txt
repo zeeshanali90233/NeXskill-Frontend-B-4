@@ -1,4 +1,16 @@
-- Types of Inputs
-- Forms
-- Enbedding API
-- Github Desktop
+Inputs
+
+text, checboxes, radio,file
+
+buttons
+
+Div , sections 
+
+
+Iframe
+ Map and Youtube API
+
+Escape Characters
+    like &copy;
+
+Github Desktop

@@ -1,8 +1,5 @@
-1) Add the contact us page to portfolio, add name, email and message inputs there also the submit button
-Add radio input to select the gender in contact us page
+1) Add a contact us page in your portfolio having name, email , message text box and one submit button
 
-2) Embed the P2PClouds Videos to your portfolio, Channel Link: https://www.youtube.com/@P2PClouds
+2) Adding Map and Youtube Videos in your portfolio Site
 
-3) embed your address to portfolio site
-
-4) Add all the Previous Assignments / HW To Github using Github Desktop and also maintain them using github desktop(means changings)
+3) Uploading all code on Github
