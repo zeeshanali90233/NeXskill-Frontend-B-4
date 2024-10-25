@@ -3,7 +3,7 @@
 - API Use Cases 
 - TEST - API's
 - GEMINI - API
-- GEMINI API KEY = AIzaSyCd6-dKitqZULcCsGD8rrUB25qvrySrPmk
+
 
 
 Test API's
