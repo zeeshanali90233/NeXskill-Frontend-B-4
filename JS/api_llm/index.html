@@ -5,5 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="body">
+    <!-- API's -->
+    API's
+
+    <form onsubmit="getResponseFromLLM(); return false;">
+      <div>
+        <label for="userQuery">User Query</label>
+        <input type="text" name="userQuery" id="userQuery" class="userQuery" />
+      </div>
+
+      <button type="submit">Get Response</button>
+    </form>
+    <div class="tweets_container"></div>
+    <div class="llm"></div>
+    <script src="./index.js"></script>
+  </body>
 </html>
