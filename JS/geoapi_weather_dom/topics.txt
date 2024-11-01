@@ -1,0 +1,14 @@
+
+
+1) Geo Location API's
+2) Weather app
+3) DOM 
+4) NPM Packages & CDN
+
+
+REST API 
+
+Weather URI: https://p2pclouds.up.railway.app
+EndPoint: /v1/learn/weather
+Query: city
+Method: GET
