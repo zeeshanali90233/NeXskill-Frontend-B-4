@@ -15,6 +15,9 @@ function getUserGeoLocation() {
     alert("Browser location not supported.");
   }
 }
+
+let localStream;
+
 async function getUserMedia() {
   if (navigator.getUserMedia) {
     const videoRef = document.querySelector(".cam");
@@ -24,10 +27,8 @@ async function getUserMedia() {
         video: { width: 200, height: 200 },
       },
       (stream) => {
+        window.localStream = stream;
         videoRef.srcObject = stream;
-        videoRef.onloadedmetadata = (e) => {
-          videoRef.play();
-        };
       },
       (err) => {
         console.error(`The following error occurred: ${err.name}`);
@@ -39,7 +40,7 @@ async function getUserMedia() {
 }
 
 // getUserGeoLocation();
-// getUserMedia();
+getUserMedia();
 
 async function getWeather() {
   const inputRef = document.querySelector(".cityName");
@@ -71,3 +72,14 @@ var ctx = canvasRef.getContext("2d");
 ctx.beginPath();
 ctx.arc(50, 10, 10, 0, Math.PI);
 ctx.stroke();
+
+function stopVideo() {
+  const videoRef = document.querySelector(".cam");
+  videoRef.srcObject.getTracks().forEach((track) => track.stop());
+  videoRef.style.display = "none";
+}
+
+function startVideo() {
+  const videoRef = document.querySelector(".cam");
+  videoRef.play();
+}
