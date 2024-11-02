@@ -1,0 +1,4 @@
+1) Make two button on your site by name , Start and Stop 
+
+When Click on Start , user audio and video should be shown on Screen( 1280 by 720)
+and when click on stop, this play should be stopped and vice varsa

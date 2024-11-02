@@ -6,6 +6,32 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- <video src="" class="cam"></video> -->
+
+    <form onsubmit="getWeather(); return false;">
+      <div>
+        <label for="city"> City Name</label>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          class="cityName"
+          placeholder="Enter City Name"
+        />
+      </div>
+
+      <button type="submit">Get</button>
+    </form>
+
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+    >
+    </canvas>
+
+    <div class="result"></div>
     <script src="./index.js"></script>
   </body>
 </html>
