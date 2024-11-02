@@ -1,0 +1,8 @@
+1) Make complete Chat Bot using Gemini of your own interest by adjusting it's system prompt and also track user should not query more than 10, if they do ask them to pay 
+
+2) Make a weather app
+
+URL: https://p2pclouds.up.railway.app/v1/learn/weather?city=CITY_NAME
+Method: GET
+
+also show as much detail to the user about weather 

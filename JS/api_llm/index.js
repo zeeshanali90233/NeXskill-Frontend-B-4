@@ -120,3 +120,14 @@ async function getResponseFromLLM() {
     alert("Error while generating response");
   }
 }
+
+function sayHi(greeting) {
+  greeting();
+}
+
+function greeting() {
+  alert("Hi");
+}
+
+sayHi(greeting);
+

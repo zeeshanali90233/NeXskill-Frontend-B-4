@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="SaveTweet(); return false;">
+      <div>
+        <label for=""> Tweet Description </label>
+        <textarea
+          name="description"
+          id=""
+          class="desc"
+          rows="5"
+          cols="7"
+        ></textarea>
+      </div>
+      <div>
+        <label for=""> Tweet Image </label>
+        <input type="text" name="img" class="img" id="" />
+      </div>
+      <button type="submit">Save</button>
+    </form>
+
+    <form onsubmit="DeleteTweet(); return false;">
+      <div>
+        <label for=""> Tweet Id </label>
+        <input type="text" name="tweetId" class="tweetId" id="" />
+      </div>
+      <button type="submit">Save</button>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
