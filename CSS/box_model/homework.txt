@@ -1,0 +1,4 @@
+1) Make clone of from one of the video shared
+   First make it by watching then make it by your own
+
+2) Style properly your weather app
