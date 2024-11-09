@@ -1,0 +1,27 @@
+-- Pseudo Classes
+ -- Hover
+ -- Active
+    -- element when pressed
+ -- Link
+  -- Not Visited
+ -- Visited
+  -- Clicked
+ -- Focus
+-- Pseudo Elements
+ -- first line
+ -- first letter
+
+-- after 
+-- before
+
+-- Media Queries
+    Orientations
+
+-- Animations
+https://animista.net/
+https://webcode.tools/css-generator/keyframe-animation
+https://www.theappguruz.com/tag-tools/web/CSSAnimations/
+
+
+
+JS Event Bubbling, and Propogation
