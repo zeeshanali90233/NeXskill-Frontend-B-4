@@ -1,1 +1,62 @@
 1) Style properly your weather app
+
+2) Pseudo-Classes and Hover Effects
+    Task:
+    Create a list of items (<ul> with <li>).
+    Apply the :hover pseudo-class to change the background color of each item when hovered over.
+    Use the :nth-child pseudo-class to style every second item in a different color.
+
+3) Active Pseudo-Class
+    Task:
+    Create several buttons on the page.
+    Style the buttons with a different color when they are in the :active state (pressed).
+    Add some CSS transition effects to make the state change smoother.
+
+4)  Link Pseudo-Classes (Visited, Not Visited, Clicked)
+    Task:
+    Add multiple links to different sections of the page.
+    Style :link (not visited), :visited, and :active states to differentiate links.
+    Customize each link’s color for different states (e.g., blue for unvisited, purple for visited, and red for clicked).
+
+5) Focus Pseudo-Class
+    Task:
+    Add an input field and a button.
+    Use :focus to change the border color and shadow of the input field when clicked into.
+    Make a button that changes style on focus.
+
+6) Pseudo-Elements: First Line and First Letter
+    Task:
+    Write a paragraph of text.
+    Style the ::first-line pseudo-element to make the first line bold and colored.
+    Style the ::first-letter pseudo-element to make the first letter larger and in a different color.
+
+7) Pseudo-Elements: Before and After
+    Task:
+    Create a <div> with some content.
+    Use ::before to add decorative content (like a symbol or icon) before the <div> content.
+    Use ::after to insert a closing symbol after the <div> content.
+
+8) Media Queries (Orientation)
+    Task:
+    Add an image and some text to the page.
+    Use a media query to change the text color and position when the screen orientation is landscape versus portrait.
+    Adjust the font size of the text to be larger in landscape mode.
+
+9) Animations with Animista
+    Task:
+    Create a button and a div.
+    Use Animista to apply a bounce effect to the button and a fade-in effect to the div on hover.
+    Try at least two other animations from Animista on different elements and experiment with duration and timing functions.
+
+10) JavaScript Event Bubbling and Propagation
+    Task:
+    Create three nested divs (parent, child, grandchild).
+    Add an event listener to each div, with a console.log statement to log which div was clicked.
+    Observe event bubbling and use stopPropagation to stop the event at a certain div and observe the behavior change.
+
+11) Combining Hover, Active, and Media Queries
+    Task:
+    Create a card component with a button inside it.
+    Use :hover to change the button color on hover.
+    Use :active to change the button's background on click.
+    Add a media query to adjust the size of the card based on screen width (e.g., smaller on mobile, larger on desktop).
