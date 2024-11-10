@@ -23,5 +23,4 @@ https://webcode.tools/css-generator/keyframe-animation
 https://www.theappguruz.com/tag-tools/web/CSSAnimations/
 
 
-
 JS Event Bubbling, and Propogation
