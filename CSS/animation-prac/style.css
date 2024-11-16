@@ -1,0 +1,63 @@
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  animation: flip-2-hor-top-1 3s 2s infinite both;
+}
+
+@keyframes flip-2-hor-top-1 {
+  0% {
+    transform: translateY(0) rotateX(0);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: translateY(-100%) rotateX(-180deg);
+    transform-origin: 50% 100%;
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  animation: rotating-radius 2s linear 0s infinite;
+}
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nested {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+@keyframes rotating-radius {
+  0% {
+    border-radius: 25% 0% 0% 0%;
+    transform: rotate(90deg);
+  }
+  50% {
+    border-radius: 25% 25% 25% 25%;
+    transform: rotate(360deg);
+  }
+  100% {
+    border-radius: 0% 0% 0% 0%;
+    transform: rotate(360deg);
+  }
+}
