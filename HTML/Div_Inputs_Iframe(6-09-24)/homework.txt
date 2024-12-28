@@ -2,4 +2,4 @@
 
 2) Adding Map and Youtube Videos in your portfolio Site
 
-3) Uploading all code on Github
+3) Deploy all your code on github 
